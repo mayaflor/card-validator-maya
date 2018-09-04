@@ -1,6 +1,6 @@
 # Credit card validator
 
-**This JavaScript library validates credit card numbers.**It returns **true** if the credit card number is valid, and **false** if the number is not valid.
+**This JavaScript library validates credit card numbers**It returns **true** if the credit card number is valid, and **false** if the number is not valid.
 
 
 ## Usage
