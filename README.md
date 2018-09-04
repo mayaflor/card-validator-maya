@@ -21,7 +21,9 @@ $node
 ```
 
 It runs using the Luhn algorithm
+
 It throws errors if the input is not a number or not the right length
+
 Validates credit card numbers
 
 
