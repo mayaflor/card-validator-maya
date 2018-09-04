@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mayaflor/card-validator.git"
+    "url": "git+https://github.com/mayaflor/card-validator-maya.git"
   },
   "author": "Mayara Ramos Rebelo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mayaflor/card-validator/issues"
+    "url": "https://github.com/mayaflor/card-validator-maya/issues"
   },
-  "homepage": "https://github.com/mayaflor/card-validator#readme",
+  "homepage": "https://github.com/mayaflor/card-validator-maya#readme",
   "dependencies": {
     "chai": "^4.1.2"
   }
