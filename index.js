@@ -2,11 +2,11 @@ module.exports.cardValidator = function cardValidator (creditCardNumber){
   if (creditCardNumber === "") {
     throw new Error ("Type a credit card number");
   };
-  if (typeof creditCardNumber === "string") {
-    throw new Error ("Type a credit card number");
+  if (creditCardNumber === /[a-zA-Z]/ ) {
+    throw new Error ("Type only numbers");
   };
   if (creditCardNumber.length < 2) {
-    throw new Error ("Type a credit card number");
+    throw new Error ("Type a valid amount of numbers");
   };
   const reversedNumbers = creditCardNumber.split("").reverse();
 

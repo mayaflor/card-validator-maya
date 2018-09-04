@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mayaflor/card-validator/issues"
   },
-  "homepage": "https://github.com/mayaflor/card-validator#readme"
+  "homepage": "https://github.com/mayaflor/card-validator#readme",
+  "dependencies": {
+    "chai": "^4.1.2"
+  }
 }
