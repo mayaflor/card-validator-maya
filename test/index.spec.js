@@ -9,7 +9,7 @@ describe('cardValidator()', () => {
     expect(validCard("")).to.equal(Error);
   });
   it('Should return true', () => {
-    expect(validCard("3566002020360505")).to.equal(true);
+    expect(validCard(3566002020360505)).to.equal(true);
   });
 
 });

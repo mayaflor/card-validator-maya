@@ -8,7 +8,9 @@ module.exports.cardValidator = function cardValidator (creditCardNumber){
   if (creditCardNumber.length < 2) {
     throw new Error ("Type a valid amount of numbers");
   };
-  const reversedNumbers = creditCardNumber.split("").reverse();
+
+  const string = creditCardNumber.toString();
+  const reversedNumbers = string.split("").reverse();
 
   let result = 0;
   for (var i = 0; i < reversedNumbers.length; i++) {
