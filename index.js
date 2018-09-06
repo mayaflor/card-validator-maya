@@ -1,16 +1,16 @@
 module.exports.cardValidator = function cardValidator (creditCardNumber){
-  if ( creditCardNumber === "" ) {
-    throw new Error ("Type a credit card number");
+  if ( creditCardNumber === '' ) {
+    throw new Error ('Type a credit card number');
   };
-  if ( typeof creditCardNumber === "string" ) {
-    throw new Error ("Type only numbers");
+  if ( typeof creditCardNumber === 'string' ) {
+    throw new Error ('Type only numbers');
   };
   const string = creditCardNumber.toString();
   if ( string.length < 2 ) {
-    throw new Error ("Type a valid amount of numbers");
+    throw new Error ('Type a valid amount of numbers');
   } else {
 
-  const reversedNumbers = string.split("").reverse();
+  const reversedNumbers = string.split('').reverse();
   let result = 0;
   for (var i = 0; i < reversedNumbers.length; i++) {
     if (i % 2 === 0) {
